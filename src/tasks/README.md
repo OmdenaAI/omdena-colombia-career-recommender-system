@@ -11,6 +11,6 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
-|2|         |         |
+|1|    EDA - Preprocessing     |         |
+|2|    Recommender System     |         |
 |3|         |         |
