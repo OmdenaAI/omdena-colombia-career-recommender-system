@@ -1,0 +1,851 @@
+{
+
+"estu_nacionalidad":{
+'COLOMBIA':'COLOMBIA',
+'COMORAS':'COMOROS',
+'TERRITORIOS PALESTINOS':'PALESTINIAN TERRITORIES',
+'AUSTRIA':'AUSTRIA',
+'SANTA LUCÍA':'ST. LUCIA',
+'CHIPRE':'CYPRUS',
+'COSTA RICA':'COSTA RICA',
+'COREA DEL SUR':'SOUTH KOREA',
+'ARMENIA':'ARMENIA',
+'ECUADOR':'ECUADOR',
+'MÉXICO':'MEXICO',
+'ESPAÑA':'SPAIN',
+'AZERBAIYÁN':'AZERBAIJAN',
+'ALEMANIA':'GERMANY',
+'CHILE':'CHILI',
+'VENEZUELA':'VENEZUELA',
+'GRECIA':'GREECE',
+'CHINA':'PORCELAIN',
+'PANAMÁ':'PANAMA',
+'SUIZA':'SWITZERLAND',
+'PERÚ':'PERU',
+'JAPÓN':'JAPAN',
+'CANADÁ':'CANADA',
+'CIUDAD DEL VATICANO':'VATICAN',
+'COREA DEL NORTE':'NORTH KOREA',
+'CROACIA':'CROATIA',
+'ITALIA':'ITALY',
+'REINO UNIDO':'UNITED KINGDOM',
+'REPÚBLICA DOMINICANA':'DOMINICAN REPUBLIC',
+'ESTADOS UNIDOS':'USA',
+'ARGENTINA':'ARGENTINA',
+'FRANCIA':'FRANCE',
+'ARGELIA':'ALGERIA',
+'BULGARIA':'BULGARIA',
+'ISRAEL':'ISRAEL',
+'BOLIVIA':'BOLIVIA'
+},
+
+'estu_nacionalidad.1': {
+'COLOMBIA':'COLOMBIA',
+'COMORAS':'COMOROS',
+'TERRITORIOS PALESTINOS':'PALESTINIAN TERRITORIES',
+'AUSTRIA':'AUSTRIA',
+'SANTA LUCÍA':'ST. LUCIA',
+'CHIPRE':'CYPRUS',
+'COSTA RICA':'COSTA RICA',
+'COREA DEL SUR':'SOUTH KOREA',
+'ARMENIA':'ARMENIA',
+'ECUADOR':'ECUADOR',
+'MÉXICO':'MEXICO',
+'ESPAÑA':'SPAIN',
+'AZERBAIYÁN':'AZERBAIJAN',
+'ALEMANIA':'GERMANY',
+'CHILE':'CHILI',
+'VENEZUELA':'VENEZUELA',
+'GRECIA':'GREECE',
+'CHINA':'PORCELAIN',
+'PANAMÁ':'PANAMA',
+'SUIZA':'SWITZERLAND',
+'PERÚ':'PERU',
+'JAPÓN':'JAPAN',
+'CANADÁ':'CANADA',
+'CIUDAD DEL VATICANO':'VATICAN',
+'COREA DEL NORTE':'NORTH KOREA',
+'CROACIA':'CROATIA',
+'ITALIA':'ITALY',
+'REINO UNIDO':'UNITED KINGDOM',
+'REPÚBLICA DOMINICANA':'DOMINICAN REPUBLIC',
+'ESTADOS UNIDOS':'USA',
+'ARGENTINA':'ARGENTINA',
+'FRANCIA':'FRANCE',
+'ARGELIA':'ALGERIA',
+'BULGARIA':'BULGARIA',
+'ISRAEL':'ISRAEL',
+'BOLIVIA':'BOLIVIA'
+},
+
+'estu_exterior': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_tieneetnia': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_pagomatriculabeca': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_pagomatriculacredito': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_pagomatriculapadres': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_pagomatriculapropio': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_tomo_cursopreparacion': {
+'SI':'YES',
+'NO':'NO'
+},
+
+
+'estu_simulacrotipoicfes': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_actividadrefuerzoareas': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_actividadrefuerzogeneric': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_cabezafamilia': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tieneinternet': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tienecomputador': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tiene_horno': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tieneautomovil': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tiene_nevera': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tiene_celular': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_telefono': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tieneinternet.1': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tienecomputador.1': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tienelavadora': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tienemicroondas': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tienehorno': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tieneautomovil.1': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tienedvd': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tiene_nevera.1': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_tiene_celular.1': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'fami_telefono.1': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_antecedentes': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'estu_expectativas': {
+'SI':'YES',
+'NO':'NO'
+},
+
+'cole_sede_principal':{
+'S':'YES',
+'N':'NO'
+},
+
+'estu_estadocivil':{
+'Soltero':'Single',
+'Unión libre':'Free Union',
+'Casado':'Married',
+'Separado y/o Viudo':'Separated and/or Widowed',
+'Separado y/o Divorciado':'Separated and/or Divorced',
+'Viudo':'Widowed'
+},
+
+'estu_estudiante': {
+'ESTUDIANTE':'STUDENT'
+},
+
+'estu_estudiante.1': {
+'ESTUDIANTE':'STUDENT'
+},
+
+'estu_tituloobtenidobachiller': {
+'Bachiller técnico':'Technical Bachelor',
+'Bachiller académico':'Academic Bachelor',
+'Bachiller pedagógico o normalista':'Pedagogical or normalist high school',
+'Normalista Superior':'Superior Normalist'
+},
+
+'estu_semestre_examenestadosb11': {
+'Primer semestre':'1st semester',
+'Segundo semestre':'2nd semester'
+},
+
+'estu_porcentajecreditosaprob': {
+'No sigue el sistema de créditos': "Doesn't follow the credit system",
+'Menos del 75%':'Less than 75%',
+'Más del 90%':'More than 90%',
+'Entre el 81% y el 90%':'Between 81% and 90%',
+'Entre el 76% y el 80%':'Between 76% and 80%'
+},
+
+'estu_valormatriculauniversidad': {
+'No pagó matrícula':'Did not pay tuition',
+'Entre 2.5 millones y menos de 4 millones':'Between 2.5 million and less than 4 million',
+'Entre 1 millón y menos de 2.5 millones':'Between 1 million and less than 2.5 million',
+'Menos de 500 mil':'Less than 500 thousand',
+'Mas de 7 millones':'More than 7 million',
+'Entre 4 millones y menos de 5.5 millones':'Between 4 million and less than 5.5 million',
+'Entre 5.5 millones y menos de 7 millones':'Between 5.5 million and less than 7 million',
+'Entre 500 mil y menos de 1 millón':'Between 500 thousand and less than 1 million',
+'Más de 7 millones':'More than 7 million',
+'Entre 1 millón y menos de 3 millones':'Between 1 million and less than 3 million',
+'Más de 5 millones':'More than 5 million',
+'Entre 3 millones y menos de 5 millones':'Between 3 million and less than 5 million'
+},
+
+'estu_cursodocentesies': {
+'Entre 20 y 30 horas':'Between 20 and 30 hours',
+'No tomó Curso':'He did not take a course',
+'Más de 30 horas':'More than 30 hours',
+'Menos de 20 horas':'Less than 20 hours'
+},
+
+'estu_cursoiesapoyoexterno': {
+'Entre 20 y 30 horas':'Between 20 and 30 hours',
+'No tomó Curso':'He did not take a course',
+'Más de 30 horas':'More than 30 hours',
+'Menos de 20 horas':'Less than 20 hours'
+},
+
+'estu_cursoiesexterna': {
+'Entre 20 y 30 horas':'Between 20 and 30 hours',
+'No tomó Curso':'He did not take a course',
+'Más de 30 horas':'More than 30 hours',
+'Menos de 20 horas':'Less than 20 hours'
+},
+
+'fami_hogaractual':{
+'Es habitual o permanente':'It is habitual or permanent',
+'Es temporal por razones de estudio u otra razón':'It is temporary for study or other reasons'
+},
+
+'fami_numpersonasacargo': {
+'Ninguna':'None',
+'Una':'One',
+'Dos':'Two',
+'Tres':'Three',
+'Cuatro':'Four',
+'Cinco':'Five',
+'Seis':'Six',
+'Siete':'Seven',
+'Ocho':'Eight',
+'Nueve':'Nine',
+'Diez':'Ten',
+'Once':'Eleven',
+'Doce o más':'Twelve or more',
+'12 o más':'Twelve or more'
+},
+
+'fami_educacionpadre': {
+'Primaria incompleta': 'Elementary school incomplete',
+'Primaria completa': 'Elementary school complete',
+'Secundaria (Bachillerato) incompleta': 'Middle School incomplete',
+'Secundaria (Bachillerato) completa': 'Middle School complete',
+'Técnica o tecnológica incompleta': 'Technical School incomplete',
+'Técnica o tecnológica completa': 'Technical School complete',
+'Educación profesional incompleta': 'Undergraduate Degree incomplete',
+'Educación profesional completa': 'Undergraduate Degree complete',
+'Postgrado': 'Graduate Degree',
+'Ninguno': 'None',
+'No sabe':  "Doesn't know",
+'No Aplica': 'Not apply',
+'No aplica': 'Not apply',
+},
+
+'fami_educacionpadre.1': {
+'Primaria incompleta': 'Elementary school incomplete',
+'Primaria completa': 'Elementary school complete',
+'Secundaria (Bachillerato) incompleta': 'Middle School incomplete',
+'Secundaria (Bachillerato) completa': 'Middle School complete',
+'Técnica o tecnológica incompleta': 'Technical School incomplete',
+'Técnica o tecnológica completa': 'Technical School complete',
+'Educación profesional incompleta': 'Undergraduate Degree incomplete',
+'Educación profesional completa': 'Undergraduate Degree complete',
+'Postgrado': 'Graduate Degree',
+'Ninguno': 'None',
+'No sabe':  "Doesn't know",
+'No Aplica': 'Not apply',
+'No aplica': 'Not apply',
+},
+
+'fami_educacionmadre': {
+'Primaria incompleta': 'Elementary school incomplete',
+'Primaria completa': 'Elementary school complete',
+'Secundaria (Bachillerato) incompleta': 'Middle School incomplete',
+'Secundaria (Bachillerato) completa': 'Middle School complete',
+'Técnica o tecnológica incompleta': 'Technical School incomplete',
+'Técnica o tecnológica completa': 'Technical School complete',
+'Educación profesional incompleta': 'Undergraduate Degree incomplete',
+'Educación profesional completa': 'Undergraduate Degree complete',
+'Postgrado': 'Graduate Degree',
+'Ninguno': 'None',
+'No sabe':  "Doesn't know",
+'No Aplica': 'Does not apply',
+'No aplica': 'Does not apply',
+},
+
+'fami_educacionmadre.1': {
+'Primaria incompleta': 'Elementary school incomplete',
+'Primaria completa': 'Elementary school complete',
+'Secundaria (Bachillerato) incompleta': 'Middle School incomplete',
+'Secundaria (Bachillerato) completa': 'Middle School complete',
+'Técnica o tecnológica incompleta': 'Technical School incomplete',
+'Técnica o tecnológica completa': 'Technical School complete',
+'Educación profesional incompleta': 'Undergraduate Degree incomplete',
+'Educación profesional completa': 'Undergraduate Degree complete',
+'Postgrado': 'Graduate Degree',
+'Ninguno': 'None',
+'No sabe':  "Doesn't know",
+'No Aplica': 'Does not apply',
+'No aplica': 'Does not apply',
+},
+
+'fami_ocupacionpadre': {
+'Otra actividad u ocupación': 'Other activity or occupation',
+'No aplica':  'Does not apply',
+'Obrero o empleado de empresa particular':  'Employee of a private company',
+'Trabajador por cuenta propia':  'Self-employed',
+'Pensionado':  'Pensioner',
+'Patrón o empleador':  'Employer',
+'Obrero o empleado del gobierno':  'Government employee',
+'Jornalero o peón':  'Laborer',
+'Empleado doméstico':  'Domestic employee',
+'Empleado obrero u operario':  'Operator employee',
+'Pequeño empresario':  'Small businessman',
+'Desempleado':  'Unemployed',
+'Trabajador familiar sin remuneración':  'Unpaid family worker',
+'Trabajador sin remuneración en empresas o negocios de otros hogares':  'Unpaid worker in companies or businesses of other households',
+'Directivo':  'Executive',
+'Empleado de nivel técnico o profesional':  'Employee with technical level or professional',
+'Hogar':  'Home',
+'Director o Gerente General':  'Director or General Manager',
+'Empresario':  'Businessman'
+},
+
+'fami_ocupacionpadre.1': {
+'Otra actividad u ocupación': 'Other activity or occupation',
+'No aplica':  'Does not apply',
+'Obrero o empleado de empresa particular':  'Employee of a private company',
+'Trabajador por cuenta propia':  'Self-employed',
+'Pensionado':  'Pensioner',
+'Patrón o empleador':  'Employer',
+'Obrero o empleado del gobierno':  'Government employee',
+'Jornalero o peón':  'Laborer',
+'Empleado doméstico':  'Domestic employee',
+'Empleado obrero u operario':  'Operator employee',
+'Pequeño empresario':  'Small businessman',
+'Desempleado':  'Unemployed',
+'Trabajador familiar sin remuneración':  'Unpaid family worker',
+'Trabajador sin remuneración en empresas o negocios de otros hogares':  'Unpaid worker in companies or businesses of other households',
+'Directivo':  'Executive',
+'Empleado de nivel técnico o profesional':  'Employee with technical level or professional',
+'Hogar':  'Home',
+'Director o Gerente General':  'Director or General Manager',
+'Empresario':  'Businessman'
+},
+
+'fami_ocupacionmadre': {
+'Otra actividad u ocupación':'Other activity or occupation',
+'No aplica':'Does not apply',
+'Obrero o empleado de empresa particular':'Employee of a private company',
+'Trabajador por cuenta propia':'Self-employed',
+'Pensionado':'Pensioner',
+'Patrón o empleador':'Employer',
+'Obrero o empleado del gobierno':'Government employee',
+'Jornalero o peón':'Laborer',
+'Empleado doméstico':'Domestic employee',
+'Empleado obrero u operario':'Operator employee',
+'Pequeño empresario':'Small businessman',
+'Desempleado':'Unemployed',
+'Trabajador familiar sin remuneración':'Unpaid family worker',
+'Trabajador sin remuneración en empresas o negocios de otros hogares':'Unpaid worker in companies or businesses of other households',
+'Directivo':'Executive',
+'Empleado de nivel técnico o profesional':'Employee with technical level or professional',
+'Hogar':'Home',
+'Director o Gerente General':'Director or General Manager',
+'Empresario':'Businessman'
+},
+
+'fami_ocupacionmadre.1': {
+'Otra actividad u ocupación':'Other activity or occupation',
+'No aplica':'Does not apply',
+'Obrero o empleado de empresa particular':'Employee of a private company',
+'Trabajador por cuenta propia':'Self-employed',
+'Pensionado':'Pensioner',
+'Patrón o empleador':'Employer',
+'Obrero o empleado del gobierno':'Government employee',
+'Jornalero o peón':'Laborer',
+'Empleado doméstico':'Domestic employee',
+'Empleado obrero u operario':'Operator employee',
+'Pequeño empresario':'Small businessman',
+'Desempleado':'Unemployed',
+'Trabajador familiar sin remuneración':'Unpaid family worker',
+'Trabajador sin remuneración en empresas o negocios de otros hogares':'Unpaid worker in companies or businesses of other households',
+'Directivo':'Executive',
+'Empleado de nivel técnico o profesional':'Employee with technical level or professional',
+'Hogar':'Home',
+'Director o Gerente General':'Director or General Manager',
+'Empresario':'Businessman'
+},
+
+'fami_trabajolaborpadre': {
+'Es agricultor, pesquero o jornalero':'Farmer, fisherman or day laborer',
+'Es dueño de un negocio grande, tiene un cargo de nivel directivo o gerencial':'Owns a large business, manager or director',
+'Es dueño de un negocio pequeño (tiene pocos empleados o no tiene, por ejemplo tienda, papelería, etc':'Owns a small business (with few or none employees, for example a cornerstore, stationery shop, etc.)',
+'Es operario de máquinas o conduce vehículos (taxita, chofer)':'Machine operator or vehicles driver (as taxi)',
+'Es vendedor o trabaja en atención al público':'He is a salesman or works in customer service',
+'No aplica':'Does not apply',
+'No sabe':'Does not know',
+'Pensionado':'Pensioner',
+'Tiene un trabajo de tipo auxiliar administrativo (por ejemplo, secretario o asistente)':'Administrative assistant (for example, secretary or personal assistant)',
+'Trabaja como personal de limpieza, mantenimiento, seguridad o construcción':'Works as a cleaning, maintenance, security or construction personnel',
+'Trabaja como profesional (por ejemplo médico, abogado, ingeniero)':'Work as a professional (e.g. doctor, lawyer, engineer)',
+'Trabaja en el hogar, no trabaja o estudia':'Works at home, does not work or study',
+'Trabaja por cuenta propia (por ejemplo plomero, electricista)':'Self-employed (e.g. plumber, electrician)',
+},
+
+'fami_trabajolabormadre': {
+'Es agricultor, pesquero o jornalero':'Farmer, fisherman or day laborer',
+'Es dueño de un negocio grande, tiene un cargo de nivel directivo o gerencial':'Owns a large business, manager or director',
+'Es dueño de un negocio pequeño (tiene pocos empleados o no tiene, por ejemplo tienda, papelería, etc':'Owns a small business (with few or none employees, for example a cornerstore, stationery shop, etc.)',
+'Es operario de máquinas o conduce vehículos (taxita, chofer)':'Machine operator or vehicles driver (as taxi)',
+'Es vendedor o trabaja en atención al público':'He is a salesman or works in customer service',
+'No aplica':'Does not apply',
+'No sabe':'Does not know',
+'Pensionado':'Pensioner',
+'Tiene un trabajo de tipo auxiliar administrativo (por ejemplo, secretario o asistente)':'Administrative assistant (for example, secretary or personal assistant)',
+'Trabaja como personal de limpieza, mantenimiento, seguridad o construcción':'Works as a cleaning, maintenance, security or construction personnel',
+'Trabaja como profesional (por ejemplo médico, abogado, ingeniero)':'Work as a professional (e.g. doctor, lawyer, engineer)',
+'Trabaja en el hogar, no trabaja o estudia':'Works at home, does not work or study',
+'Trabaja por cuenta propia (por ejemplo plomero, electricista)':'Self-employed (e.g. plumber, electrician)',
+},
+
+'fami_estratovivienda': {
+'Estrato 0':'Stratum 0',
+'Estrato 1':'Stratum 1',
+'Estrato 2':'Stratum 2',
+'Estrato 3':'Stratum 3',
+'Estrato 4':'Stratum 4',
+'Estrato 5':'Stratum 5',
+'Estrato 6':'Stratum 6',
+'Sin Estrato':'Without Stratum',
+'Vive en una zona rural donde no hay estratificación socioeconómica':'Rural area where there is no socioeconomic stratification',
+},
+
+'fami_estratovivienda.1': {
+'Estrato 0':'Stratum 0',
+'Estrato 1':'Stratum 1',
+'Estrato 2':'Stratum 2',
+'Estrato 3':'Stratum 3',
+'Estrato 4':'Stratum 4',
+'Estrato 5':'Stratum 5',
+'Estrato 6':'Stratum 6',
+'Sin Estrato':'Without Stratum',
+'Vive en una zona rural donde no hay estratificación socioeconómica':'Rural area where there is no socioeconomic stratification',
+},
+
+'fami_nivel_sisben': {
+'No está clasificada por el SISBEN':'Not classified by SISBEN',
+'Nivel 1':'Level 1',
+'Nivel 2':'Level 2',
+'Nivel 3':'Level 3',
+'Esta clasificada en otro nivel del SISBEN':'Other level SISBEN',
+},
+
+'fami_nivelsisben': {
+'No está clasificada por el SISBEN':'Not classified by SISBEN',
+'Nivel 1':'Level 1',
+'Nivel 2':'Level 2',
+'Nivel 3':'Level 3',
+'Esta clasificada en otro nivel del SISBEN':'Other level SISBEN',
+},
+
+'fami_numlibros': {
+'0 A 10 LIBROS':'0 TO 10 BOOKS',
+'11 A 25 LIBROS':'11 TO 25 BOOKS',
+'26 A 100 LIBROS':'26 TO 100 BOOKS',
+'MÁS DE 100 LIBROS':'MORE THAN 100 BOOKS'
+},
+
+'fami_ingreso_fmiliar_mensual': {
+'Menos de 1 SMLV':'Less than 1 SMLV',
+'Entre 1 y menos de 2 SMLV':'Between 1 and less than 2 SMLV',
+'Entre 2 y menos de 3 SMLV':'Between 2 and less than 3 SMLV',
+'Entre 3 y menos de 5 SMLV':'Between 3 and less than 5 SMLV',
+'Entre 5 y menos de 7 SMLV':'Between 5 and less than 7 SMLV',
+'Entre 7 y menos de 10 SMLV':'Between 7 and less than 10 SMLV',
+'10 o más SMLV':'10 or more SMLV'
+},
+
+'fami_ingresofmiliarmensual':{
+'Menos de 1 SMLV':'Less than 1 SMLV',
+'Entre 1 y menos de 2 SMLV':'Between 1 and less than 2 SMLV',
+'Entre 2 y menos de 3 SMLV':'Between 2 and less than 3 SMLV',
+'Entre 3 y menos de 5 SMLV':'Between 3 and less than 5 SMLV',
+'Entre 5 y menos de 7 SMLV':'Between 5 and less than 7 SMLV',
+'Entre 7 y menos de 10 SMLV':'Between 7 and less than 10 SMLV',
+'10 o más SMLV':'10 or more SMLV'
+},
+
+'estu_trabaja_actualmente': {
+'No':'No',
+'Si, para contribuir a pagar su matrícula y/o los gastos del hogar':'Yes, to help pay their tuition and/or household expenses',
+'Si, práctica obligatoria del programa de estudios':'Yes, compulsory study program practice',
+'Si, para adquirir experiencia y/o recursos para sus gastos personales':'Yes, to gain experience and/or resources for personal expenses'
+},
+
+'estu_trabajaactualmente': {
+'No':'No',
+'Si, 20 horas o más a la semana':'Yes, 20 hours or more per week',
+'Si, menos de 20 horas a la semana':'Yes, less than 20 hours a week'
+},
+
+'estu_nivel_prgm_academico': {
+'TECNOLOGÍA':'TECHNOLOGY',
+'TÉCNICO PROFESIONAL':'PROFESSIONAL TECHNICIAN',
+'UNIVERSITARIO':'UNIVERSITY',
+},
+
+'estu_metodo_prgm': {
+'DISTANCIA':'DISTANCE',
+'PRESENCIAL':'IN PERSON',
+'DISTANCIA VITUAL':'ONLINE',
+'SEMI-PRESENCIAL':'SEMI-PRESENTIAL'
+},
+
+'estu_nucleo_pregrado': {
+'CONTADURIA PUBLICA':'PUBLIC ACCOUNTING',
+'FORMACION RELACIONADA CON EL CAMPO MILITAR O POLICIAL': 'MILITARY OR POLICE TRAINING',
+'ECONOMIA':'ECONOMY',
+'ADMINISTRACION': 'ADMINISTRATION',
+'INGENIERIA INDUSTRIAL Y AFINES':'INDUSTRIAL ENGINEERING',
+'INGENIERIA AGRONOMICA, PECUARIA Y AFINES':'AGRONOMIC, LIVESTOCK ENGINEERING',
+'PSICOLOGIA':'PSYCHOLOGY',
+'COMUNICACIÓN SOCIAL, PERIODISMO Y AFINES':'SOCIAL COMMUNICATION, JOURNALISM',
+'DERECHO Y AFINES':'LAW',
+'GEOLOGIA, OTROS PROGRAMAS DE CIENCIAS NATURALES':'GEOLOGY, OTHER NATURAL SCIENCE PROGRAMS',
+'INGENIERIA AMBIENTAL, SANITARIA Y AFINES':'ENVIRONMENTAL, SANITARY ENGINEERING',
+'PUBLICIDAD Y AFINES':'ADVERTISING',
+'INGENIERIA MECANICA Y AFINES': 'MECHANICAL ENGINEERING',
+'INGENIERIA CIVIL Y AFINES':'CIVIL ENGINEERING',
+'EDUCACION':'EDUCATION',
+'SOCIOLOGIA, TRABAJO SOCIAL Y AFINES': 'SOCIOLOGY, SOCIAL WORK',
+'INGENIERIA AGROINDUSTRIAL, ALIMENTOS Y AFINES': 'AGROINDUSTRIAL AND FOOD ENGINEERING',
+'NUTRICION Y DIETETICA':'NUTRITION AND DIETETICS',
+'ODONTOLOGIA':'DENTISTRY',
+'ARQUITECTURA':'ARCHITECTURE',
+'ANTROPOLOGIA, ARTES LIBERALES':'ANTHROPOLOGY, LIBERAL ARTS',
+'TERAPIAS': 'THERAPIES',
+'INGENIERIA QUIMICA Y AFINES':'CHEMICAL ENGINEERING',
+'OTRAS INGENIERIAS':'OTHER ENGINEERING',
+'MEDICINA VETERINARIA': 'VETERINARY MEDICINE',
+'INGENIERIA DE SISTEMAS, TELEMATICA Y AFINES':'COMPUTER SYSTEMS, TELEMATICS ENGINEERING',
+'INGENIERIA ELECTRONICA, TELECOMUNICACIONES Y AFINES': 'ELECTRONIC ENGINEERING, TELECOMMUNICATIONS',
+'INGENIERIA DE MINAS, METALURGIA Y AFINES': 'MINING, METALLURGY ENGINEERING',
+'DISEÑO':'DESIGN',
+'ENFERMERIA':'NURSING',
+'INGENIERIA ADMINISTRATIVA Y AFINES':'ADMINISTRATIVE ENGINEERING',
+'BIOLOGIA, MICROBIOLOGIA Y AFINES':'BIOLOGY, MICROBIOLOGY',
+'INGENIERIA ELECTRICA Y AFINES': 'ELECTRICAL ENGINEERING',
+'INGENIERIA AGRICOLA, FORESTAL Y AFINES':'AGRICULTURAL, FOREST ENGINEERING',
+'CIENCIA POLITICA, RELACIONES INTERNACIONALES': 'POLITICAL SCIENCE, INTERNATIONAL RELATIONS',
+'GEOGRAFIA, HISTORIA':'GEOGRAPHY, HISTORY',
+'BACTERIOLOGIA': 'BACTERIOLOGY',
+'SIN CLASIFICAR':'UNCLASSIFIED',
+'MEDICINA':'MEDICINE',
+'QUIMICA Y AFINES':'CHEMISTRY',
+'ARTES PLASTICAS, VISUALES Y AFINES':'PLASTIC ARTS, VISUAL ARTS',
+'LENGUAS MODERNAS, LITERATURA, LINGUISTICA Y AFINES': 'MODERN LANGUAGES, LITERATURE, LINGUISTICS',
+'FILOSOFIA, TEOLOGIA Y AFINES':'PHILOSOPHY, THEOLOGY',
+'MUSICA':'MUSIC',
+'DEPORTES, EDUCACION FISICA Y RECREACION':'SPORTS, PHYSICAL EDUCATION AND RECREATION',
+'NORMALES SUPERIORES':'SUPERIOR NORMALS',
+'BIBLIOTECOLOGIA, OTROS DE CIENCIAS SOCIALES Y HUMANAS':'LIBRARY, OTHERS OF SOCIAL AND HUMAN SCIENCES',
+'AGRONOMIA':'AGRONOMY',
+'INSTRUMENTACION QUIRURGICA':'SURGICAL INSTRUMENTATION',
+'ZOOTECNIA':'ZOOTECHNY',
+'INGENIERÍA INDUSTRIAL Y AFINES':'INDUSTRIAL ENGINEERING',
+'INGENIERÍA CIVIL Y AFINES': 'CIVIL ENGINEERING',
+'CONTADURÍA PUBLICA':'PUBLIC ACCOUNTING',
+'PSICOLOGÍA':'PSYCHOLOGY',
+'ADMINISTRACIÓN': 'ADMINISTRATION',
+'INGENIERÍA MECÁNICA Y AFINES':'MECHANICAL ENGINEERING',
+'EDUCACIÓN':'EDUCATION',
+'ENFERMERÍA':'NURSING',
+'ODONTOLOGÍA': 'ODONTOLOGY',
+'ECONOMÍA':'ECONOMY',
+'INGENIERÍA AMBIENTAL, SANITARIA Y AFINES':'ENVIRONMENTAL, SANITARY ENGINEERING',
+'NUTRICIÓN Y DIETÉTICA': 'NUTRITION AND DIET',
+'SALUD PUBLICA':'PUBLIC HEALTH',
+'OTRAS INGENIERÍAS':'OTHER ENGINEERING',
+'LENGUAS MODERNAS, LITERATURA, LINGÜÍSTICA Y AFINES': 'MODERN LANGUAGES, LITERATURE, LINGUISTICS',
+'SOCIOLOGÍA, TRABAJO SOCIAL Y AFINES': 'SOCIOLOGY, SOCIAL WORK',
+'BIOLOGÍA, MICROBIOLOGÍA Y AFINES':'BIOLOGY, MICROBIOLOGY',
+'GEOLOGÍA, OTROS PROGRAMAS DE CIENCIAS NATURALES': 'GEOLOGY, OTHER NATURAL SCIENCE PROGRAMS',
+'INGENIERÍA DE SISTEMAS, TELEMÁTICA Y AFINES': 'COMPUTER SYSTEMS, TELEMATICS ENGINEERING',
+'AGRONOMÍA':'AGRONOMY',
+'INGENIERÍA DE MINAS, METALURGIA Y AFINES': 'MINING, METALLURGY ENGINEERING',
+'INGENIERÍA BIOMÉDICA Y AFINES': 'BIOMEDICAL ENGINEERING',
+'INGENIERÍA ELÉCTRICA Y AFINES':'ELECTRICAL ENGINEERING',
+'MÚSICA':'MUSIC',
+'ARTES PLÁSTICAS, VISUALES Y AFINES': 'PLASTIC, VISUAL ARTS',
+'CIENCIA POLÍTICA, RELACIONES INTERNACIONALES': 'POLITICAL SCIENCE, INTERNATIONAL RELATIONS',
+'INGENIERÍA ELECTRÓNICA, TELECOMUNICACIONES Y AFINES': 'ELECTRONIC ENGINEERING, TELECOMMUNICATIONS',
+'INGENIERÍA QUÍMICA Y AFINES': 'CHEMICAL ENGINEERING',
+'OPTOMETRÍA, OTROS PROGRAMAS DE CIENCIAS DE LA SALUD': 'OPTOMETRY, OTHER HEALTH SCIENCE PROGRAMS',
+'INGENIERÍA ADMINISTRATIVA Y AFINES': 'ADMINISTRATIVE ENGINEERING',
+'BACTERIOLOGÍA':'BACTERIOLOGY',
+'MATEMÁTICAS, ESTADÍSTICA Y AFINES':'MATH, STATISTICS',
+'MATEMATICAS, ESTADISTICA Y AFINES':'MATH, STATISTICS',
+'INGENIERÍA AGROINDUSTRIAL, ALIMENTOS Y AFINES': 'AGROINDUSTRIAL ENGINEERING, FOOD',
+'ANTROPOLOGÍA, ARTES LIBERALES': 'ANTHROPOLOGY, LIBERAL ARTS',
+'FORMACIÓN RELACIONADA CON EL CAMPO MILITAR O POLICIAL': 'TRAINING RELATED TO THE MILITARY OR POLICE FIELD',
+'DEPORTES, EDUCACIÓN FÍSICA Y RECREACIÓN': 'SPORTS, PHYSICAL EDUCATION AND RECREATION',
+'OTROS PROGRAMAS ASOCIADOS A BELLAS ARTES': 'OTHER PROGRAMS ASSOCIATED WITH FINE ARTS',
+'ARTES REPRESENTATIVAS':'REPRESENTATIVE ARTS',
+'INGENIERÍA AGRÍCOLA, FORESTAL Y AFINES': 'AGRICULTURAL, FORESTRY ENGINEERING',
+'GEOGRAFÍA, HISTORIA':'GEOGRAPHY, HISTORY',
+'QUÍMICA Y AFINES': 'CHEMISTRY',
+'BIBLIOTECOLOGÍA, OTROS DE CIENCIAS SOCIALES Y HUMANAS': 'LIBRARY, OTHERS OF SOCIAL AND HUMAN SCIENCES',
+'INGENIERÍA AGRONÓMICA, PECUARIA Y AFINES': 'AGRONOMIC, LIVESTOCK ENGINEERING',
+'OPTOMETRIA, OTROS PROGRAMAS DE CIENCIAS DE LA SALUD': 'OPTOMETRY, OTHER HEALTH SCIENCE PROGRAMS',
+'FILOSOFÍA, TEOLOGÍA Y AFINES': 'PHILOSOPHY, THEOLOGY',
+'INSTRUMENTACIÓN QUIRÚRGICA':'SURGICAL INSTRUMENTATION',
+'INGENIERIA BIOMEDICA Y AFINES': 'BIOMEDICAL ENGINEERING',
+'FÍSICA':'PHISICS',
+'FISICA':'PHISICS',
+},
+
+'inst_caracter_academico': {
+'INSTITUCIÓN TECNOLÓGICA':'TECHNOLOGICAL INSTITUTION',
+'INSTITUCIÓN UNIVERSITARIA':'UNIVERSITY INSTITUTION',
+'UNIVERSIDAD':'UNIVERSITY',
+'TÉCNICA PROFESIONAL':'PROFESSIONAL TECHNICAL SCHOOL',
+'ESCUELA NORMAL SUPERIOR':'NORMAL SUPERIOR SCHOOL'
+},
+
+'inst_origen': {
+'OFICIAL NACIONAL':'OFFICIAL NATIONAL LEVEL',
+'NO OFICIAL - FUNDACIÓN':'NOT OFFICIAL - FOUNDATION',
+'OFICIAL MUNICIPAL':'OFFICIAL MUNICIPALITY',
+'NO OFICIAL - CORPORACIÓN': 'NOT OFFICIAL - CORPORATION',
+'OFICIAL DEPARTAMENTAL':'OFFICIAL DEPARTMENTAL',
+'REGIMEN ESPECIAL':'SPECIAL REGIME'
+},
+
+'estu_estadoinvestigacion': {
+'PUBLICAR':'TO POST',
+'NO SE COMPROBO IDENTIDAD DEL EXAMINADO':'IDENTITY OF THE EXAMINED WAS NOT CHECKED',
+'VALIDEZ OFICINA JURÍDICA':'LEGAL OFFICE VALIDITY',
+'PRESENTE CON LECTURA TARDIA':'PRESENT WITH LATE READING'
+},
+
+'estu_pais_reside.1': {
+'COLOMBIA':'COLOMBIA',
+'ESTADOS UNIDOS':'USA',
+'MÉXICO':'MEXICO',
+'CHINA':'CHINA',
+'BOLIVIA':'BOLIVIA',
+'VENEZUELA':'VENEZUELA',
+'PANAMÁ':'PANAMA',
+'ITALIA':'ITALY',
+'ESPAÑA':'SPAIN',
+'ECUADOR':'ECUADOR',
+'JAPÓN':'JAPAN'
+},
+
+'estu_areareside': {
+'Cabecera Municipal':'Head of Municipality',
+'Area Rural':'Rural area'
+},
+
+'estu_valorpensioncolegio': {
+'No paga Pensión':'Does not pay Pension',
+'Menos de 87.000':'Less than 87,000',
+'Entre 87.000 y menos de 120.000':'Between 87,000 and less than 120,000',
+'Entre 120.000 y menos de 150.000':'Between 120,000 and less than 150,000',
+'Entre 150.000 y menos de 250.000':'Between 150,000 and less than 250,000',
+'250.000 o más':'250,000 or more'
+},
+
+'estu_vecespresentoexamen': {
+'Ninguna vez':'Never',
+'Una vez':'Once',
+'Una Vez':'Once',
+'Dos veces':'Twice',
+'Tres veces o más':'Three times or more'
+},
+
+
+'fami_personashogar': {
+'Una':'One',
+'Dos':'Two',
+'Tres':'Three',
+'Cuatro':'Four',
+'Cinco':'Five',
+'Seis':'Six',
+'Siete':'Seven',
+'Ocho':'Eight',
+'Nueve':'Nine',
+'Diez':'Ten',
+'Once':'Eleven',
+'Doce o más':'Twelve or more',
+},
+
+'fami_cuartoshogar': {
+'Uno':'One',
+'Dos':'Two',
+'Tres':'Three',
+'Cuatro':'Four',
+'Cinco':'Five',
+'Seis':'Six',
+'Siete':'Seven',
+'Ocho':'Eight',
+'Nueve':'Nine',
+'Diez o más':'Ten or more',
+},
+
+'fami_pisoshogar': {
+'Madera pulida, baldosa, tableta, mármol, alfombra':'Polished wood, tile, tablet, marble, carpet',
+'Cemento, gravilla, ladrillo':'Cement, gravel, brick',
+'Madera burda, tabla, tablón':'Rough wood, board, plank',
+'Tierra, arena':'Dirt, sand'
+},
+
+'cole_genero':{
+'MIXTO':'MIXED',
+'FEMENINO':'FEMALE',
+'MASCULINO':'MALE'
+},
+
+'cole_naturaleza': {
+'OFICIAL':'OFFICIAL',
+'NO OFICIAL':'NOT OFFICIAL'
+},
+
+
+'cole_caracter': {
+'TÉCNICO/ACADÉMICO':'TECHNICAL/ACADEMIC',
+'ACADÉMICO':'ACADEMIC',
+'TÉCNICO':'TECHNICAL',
+'NO APLICA':'DOES NOT APPLY'
+},
+
+'cole_area_ubicacion': {
+'URBANO':'URBAN',
+'RURAL':'RURAL'
+},
+
+'cole_jornada': {
+'MAÑANA':'MORNING',
+'TARDE':'LATE',
+'COMPLETA':'COMPLETE',
+'SABATINA':'SATURDAYS',
+'NOCHE':'NIGHT',
+'UNICA':'SINGLE'
+},
+
+'profundiza': {
+'PUNT_INTERDISC_MEDIOAMBIENTE':'SCORE_INTERDISC_ENVIRONMENT',
+'PUNT_PROFUNDIZA_LENGUAJE':'SCORE_DEEPEN_LANGUAGE',
+'PUNT_PROFUNDIZA_BIOLOGIA':'SCORE_DEEPEN_BIOLOGY',
+'PUNT_INTERDISC_VIOLENCIAYSOC':'SCORE_INTERDISC_VIOLENCE_AND_SOC',
+'PUNT_PROFUNDIZA_CSOCIALES':'SCORE_DEEPEN_SOCIAL_SCIENCE',
+'PUNT_PROFUNDIZA_MATEMATICA':'SCORE_DEEPEN_MATHEMATICS',
+}
+
+
+}
