@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import missingno
 import warnings
+from pandas import DataFrame
 warnings.filterwarnings("ignore")
 %matplotlib inline
 
