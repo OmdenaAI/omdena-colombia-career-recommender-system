@@ -1,0 +1,143 @@
+'estu_tipodocumento', #Type of document
+'estu_nacionalidad', #Nationality
+'estu_genero', #Gender
+'estu_fechanacimiento', #Birth date
+'estu_exterior', # Are they foreigns?
+'periodo', #Period
+'estu_consecutivo' , #Consecutive Number
+'estu_estadocivil', #Civil state
+'estu_estudiante', #Is student?
+'estu_pais_reside', #Residing country
+'estu_tieneetnia', #Is Ethnic
+'estu_depto_reside', #State 
+'estu_cod_reside_depto', #State code
+'estu_mcpio_reside', #Municipality
+'estu_cod_reside_mcpio', #Municipality code
+'estu_tituloobtenidobachiller', # Did he finished college?
+'estu_ano_examenestado_sb11', #Year of exam
+'estu_semestre_examenestadosb11', #Semester of exam
+'estu_porcentajecreditosaprob', #Percentage approval credits
+'estu_valormatriculauniversidad', #Cost of college per semester
+'estu_pagomatriculabeca', #Cost of college by scholarship
+'estu_pagomatriculacredito', #It is being paid by credit?
+'estu_pagomatriculapadres', #Parents college paid amount
+'estu_pagomatriculapropio', #Student college paid amount
+'estu_tomo_cursopreparacion', #Did student took preparation test?
+'estu_cursodocentesies', #Took an special preparation test?
+'estu_cursoiesapoyoexterno', #Took another test that's not lectured by government?
+'estu_cursoiesexterna', #Did he take an external test?
+'estu_simulacrotipoicfes', #Did you did a simulacrum?
+'estu_actividadrefuerzoareas', #Are you veteran? Air Forces
+'estu_actividadrefuerzogeneric', #Generic preparation for test
+'estu_semestrecursa', #Current semester
+'fami_hogaractual', #Family actual home
+'fami_cabezafamilia', #Are you in-charge of your family?
+'fami_numpersonasacargo', # Number of people in charge
+'fami_educacionpadre', #Father's education
+'fami_educacionmadre', #Mother's
+'fami_ocupacionpadre', #Father's Job Occupation
+'fami_ocupacionmadre', #Mother's Job Occupation
+'fami_trabajolaborpadre', #Father's Job
+'fami_trabajolabormadre',#Mother's Job
+'fami_estratovivienda', #House stratum
+'fami_nivel_sisben', #Colombian Sisben level
+'fami_tieneinternet', #Family has internet?
+'fami_tienecomputador', #Do you have computer?
+'fami_tiene_horno', #Do you have kiln?
+'fami_tieneautomovil',Do you have car?
+'fami_tiene_nevera',Do you have fridge?
+'fami_tiene_celular', Do you have cellphone?
+'fami_numlibros', #How much books do you have
+'fami_telefono', #Does family have a phone?
+'fami_ingreso_fmiliar_mensual', Monthly family income
+'estu_trabaja_actualmente', #Current job
+'inst_cod_institucion', #Code of institution you are current enrolled on
+'inst_nombre_institucion', #Name of institution you are current enrolled on
+'estu_prgm_academico', #Academic program
+'estu_snies_prgmacademico', #Code of academic program
+'gruporeferencia', #Reference group
+'estu_prgm_codmunicipio', #Municipality code
+'estu_prgm_municipio', #Municipality program
+'estu_prgm_departamento', #State program
+'estu_nivel_prgm_academico', #Academic program level
+'estu_metodo_prgm', #Program method
+'estu_nucleo_pregrado', #Undergraduate core
+'estu_inst_codmunicipio',  #Municipality code
+'estu_inst_municipio', #Municipality of the institution
+'estu_inst_departamento', #State of the institution
+'inst_caracter_academico', # Type of institution
+'inst_origen', #Origin of institution
+'mod_razona_cuantitat_punt', #Score math module Saber Pro
+'mod_lectura_critica_punt', #Score language module Saber Pro
+'mod_competen_ciudada_punt', #Score social science module Saber Pro
+'mod_ingles_punt', #Score English Saber Pro
+'mod_comuni_escrita_punt', #Score Writing Saber Pro
+'estu_estadoinvestigacion', #Research status
+'estu_inst_cod_departamento', #State institution code
+'estu_tipodocumento.1', #Type of document
+'estu_nacionalidad.1', #Type of nationality
+'estu_genero.1', #Student Gender
+'estu_fechanacimiento.1', #Birth date
+'periodo.1', #Semester
+'estu_consecutivo.1', #Consecutive code
+'estu_estudiante.1', #Student
+'estu_pais_reside.1', #Current country
+'estu_depto_reside.1', #Current state
+'estu_cod_reside_depto.1', #Code current state
+'estu_mcpio_reside.1', #Current municipality
+'estu_cod_reside_mcpio.1', #Code current municipality
+'estu_areareside', #Type of area
+'estu_valorpensioncolegio', #Amount of pension 
+'estu_vecespresentoexamen', #Number of times taking the exam
+'fami_educacionpadre.1', #Father's education 
+'fami_educacionmadre.1',#Mother's education
+'fami_ocupacionpadre.1',#Father's Occupation 
+'fami_ocupacionmadre.1', #Mother's occupation
+'fami_estratovivienda.1', #Stratum
+'fami_nivelsisben', #Sisben score
+'fami_personashogar', #Number of people at home
+'fami_cuartoshogar', #Number of bedrooms 
+'fami_pisoshogar', #Number of floors
+'fami_tieneinternet.1', #Do they have internet?
+'fami_tienecomputador.1', Do they have computer?
+'fami_tienelavadora', Do they have washer?
+'fami_tienemicroondas', #Do they have microwave?
+'fami_tienehorno', Do they have kiln?
+'fami_tieneautomovil.1', Do they have car?
+'fami_tienedvd', Do they have DVD?
+'fami_tiene_nevera.1', #Do they have fridge? 
+'fami_tiene_celular.1', #Do they have cellphone?
+'fami_telefono.1', #Do they have phone?
+'fami_ingresofmiliarmensual', #Mensual family income
+'estu_trabajaactualmente', #Do you have job?
+'estu_antecedentes', #Do you have policy record?
+'estu_expectativas',Expectatives
+'cole_codigo_icfes',Saber 11 ICFES code
+'cole_cod_dane_establecimiento',Saber 11 ICFES
+'cole_nombre_establecimiento',Saber 11 ICFES
+'cole_genero', #School gender
+'cole_naturaleza', #School type
+'cole_calendario',#School calendar
+'cole_bilingue',#Bilingual school?
+'cole_caracter',School character 
+'cole_cod_dane_sede', #Code DANE
+'cole_nombre_sede', #Name of DANE 
+'cole_sede_principal', #Principal headquarters
+'cole_area_ubicacion',School area
+'cole_jornada',  #School time
+'cole_cod_mcpio_ubicacion', #School code Municipality
+'cole_mcpio_ubicacion', #Code School Municipality
+'cole_cod_depto_ubicacion', #Code School State
+'cole_depto_ubicacion',#School State
+'punt_lenguaje',Saber 11 ICFES Language
+'punt_matematicas',Saber 11 ICFES Mathematics 
+'punt_biologia',Saber 11 ICFES, Biology 
+'punt_quimica',Saber 11 ICFES Chemistry 
+'punt_fisica',Saber 11 ICFES Physics 
+'punt_ciencias_sociales',Saber 11 ICFES Social Sciences 
+'punt_filosofia',Saber 11 ICFES Philosophy 
+'punt_ingles',Saber 11 ICFES English
+'desemp_ingles',Saber 11 ICFES English Score Category
+'profundiza',Saber 11 ICFES #Optative 
+'puntaje_prof',Saber 11 ICFES #Optative score
+'desemp_prof',#Optative score category
