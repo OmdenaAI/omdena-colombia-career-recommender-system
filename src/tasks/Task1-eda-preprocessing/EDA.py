@@ -1,99 +1,124 @@
 import pandas as pd
-import re
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+import seaborn as sns
+import missingno
+import warnings
+from pandas import DataFrame
+warnings.filterwarnings("ignore")
+%matplotlib inline
 
-def wrangle_with_dt(filepath):
-    """
-    Wrangle function takes an input of a filepath which contains a date-time,
-    outputs a cleaned dataframe
-    """
-    # Reads in DF from filepath using Pandas
-    df = pd.read_csv(filepath, parse_dates=['Fiscal Year Start', 'Fiscal Year End'])
-    
-    # Seperates the categorical columns
-    categorical_cols = df.select_dtypes('object').columns
-    
-    #Creates threshold for how many times you will allow the same value to show up in multiple columns in a row.
-    threshold = 50
-    
-    #Identify high cardinality columns
-    high_card_cols = [col for col in categorical_cols 
-                      if df[col].nunique() > threshold]
-    
-    # Drop high cardinality columns
-    df.drop(high_card_cols, axis=1, inplace=True)
-    
-    # Drop columns with a high number of NaN values
-    if len(df) > 100:
-        df = df.dropna(axis = 1, thresh = 100)
-    # Fill NA values with front fill. Replaces with value ahead of it.
-    df = df.fillna(method='ffill')
-    df = df.fillna(method='bfill')
-    
-    # Clear punctuation/special characters from columns using regex
-    punct_regex = r"[^0-9a-zA-Z\s]"
-    special_char_regex = r'[\$\%\&\@+\"\'\,]'
-    df.columns = df.columns.str.replace('[?]', '')
-    df.columns = df.columns.str.replace(r'[/,\\]', ' ')
-    # Lambda apply regex to df
-    df = df.rename(columns = lambda x: 
-        re.sub(punct_regex, "", x))
-    df = df.rename(columns = lambda x:
-        re.sub(special_char_regex, "", x))
-    
-    # Replace all spaces with an underscore for proper formatting
-    df = df.rename(columns = lambda x:
-        x.replace(" ", "_"))
-    
-    # Case normalize column names
-    df.columns = df.columns.str.lower()
-    
-    return df
+        
+def time_series_plot(df):
+    """Given dataframe, generate times series plot of numeric data by daily, monthly and yearly frequency"""
+    print("\nTo check time series of numeric data  by daily, monthly and yearly frequency")
+    if len(df.select_dtypes(include='datetime64').columns)>0:
+        for col in df.select_dtypes(include='datetime64').columns:
+            for p in ['D', 'M', 'Y']:
+                if p=='D':
+                    print("Plotting daily data")
+                elif p=='M':
+                    print("Plotting monthly data")
+                else:
+                    print("Plotting yearly data")
+                for col_num in df.select_dtypes(include=np.number).columns:
+                    __ = df.copy()
+                    __ = __.set_index(col)
+                    __T = __.resample(p).sum()
+                    ax = __T[[col_num]].plot()
+                    ax.set_ylim(bottom=0)
+                    ax.get_yaxis().set_major_formatter(
+                    matplotlib.ticker.FuncFormatter(lambda x, p: format(int(x), ',')))
+                    plt.show()
 
-def wrangle_without_dt(filepath):
-    """
-    Wrangle function takes an input of a filepath which does not contains a date-time,
-    outputs a cleaned dataframe
-    """
-    # Reads in DF from filepath using Pandas
-    df = pd.read_csv(filepath)
+                    
+def numeric_eda(df, hue=None):
+    """Given dataframe, generate EDA of numeric data"""
+    print("\nTo check: \nDistribution of numeric data")
+    display(df.describe().T)
+    columns = df.select_dtypes(include=np.number).columns
+    figure = plt.figure(figsize=(20, 10))
+    figure.add_subplot(1, len(columns), 1)
+    for index, col in enumerate(columns):
+        if index > 0:
+            figure.add_subplot(1, len(columns), index + 1)
+        sns.boxplot(y=col, data=df, boxprops={'facecolor': 'None'})
+    figure.tight_layout()
+    plt.show()
     
-    # Seperates the categorical columns
-    categorical_cols = df.select_dtypes('object').columns
+    if len(df.select_dtypes(include='category').columns) > 0:
+        for col_num in df.select_dtypes(include=np.number).columns:
+            for col in df.select_dtypes(include='category').columns:
+                fig = sns.catplot(x=col, y=col_num, kind='violin', data=df, height=5, aspect=2)
+                fig.set_xticklabels(rotation=90)
+                plt.show()
     
-    #Creates threshold for how many times you will allow the same value to show up in multiple columns in a row.
-    threshold = 50
+    # Plot the pairwise joint distributions
+    print("\nTo check pairwise joint distribution of numeric data")
+    if hue==None:
+        sns.pairplot(df.select_dtypes(include=np.number))
+    else:
+        sns.pairplot(df.select_dtypes(include=np.number).join(df[[hue]]), hue=hue)
+    plt.show()
+
+
+def top5(df):
+    """Given dataframe, generate top 5 unique values for non-numeric data"""
+    columns = df.select_dtypes(include=['object', 'category']).columns
+    for col in columns:
+        print("Top 5 unique values of " + col)
+        print(df[col].value_counts().reset_index().rename(columns={"index": col, col: "Count"})[
+              :min(5, len(df[col].value_counts()))])
+        print(" ")
     
-    #Identify high cardinality columns
-    high_card_cols = [col for col in categorical_cols 
-                      if df[col].nunique() > threshold]
     
-    # Drop high cardinality columns
-    df = df.drop(high_card_cols, axis=1)
+def categorical_eda(df, hue=None):
+    """Given dataframe, generate EDA of categorical data"""
+    print("\nTo check: \nUnique count of non-numeric data\n")
+    print(df.select_dtypes(include=['object', 'category']).nunique())
+    top5(df)
+    # Plot count distribution of categorical data
+    for col in df.select_dtypes(include='category').columns:
+        fig = sns.catplot(x=col, kind="count", data=df, hue=hue)
+        fig.set_xticklabels(rotation=90)
+        plt.show()
     
-    # Drop columns with a high number of NaN values
-    if len(df) > 100:
-        df = df.dropna(axis = 1, thresh = 100)
-    # Fill NA values with front fill. Replaces with value ahead of it.
-    # Replaces values at start of data with last 
-    df = df.fillna(method='ffill')
-    df = df.fillna(method='bfill')
+
+def eda(df):
+    """Given dataframe, generate exploratory data analysis"""
+    # check that input is pandas dataframe
+    if type(df) != pd.core.frame.DataFrame:
+        raise TypeError("Only pandas dataframe is allowed as input")
+        
+    # replace field that's entirely space (or empty) with NaN
+    df = df.replace(r'^\s*$', np.nan, regex=True)
+
+    print("Preview of data:")
+    display(df.head(3))
+
+    print("\nTo check: \n (1) Total number of entries \n (2) Column types \n (3) Any null values\n")
+    print(df.info())
+
+    # generate preview of entries with null values
+    if df.isnull().any(axis=None):
+        print("\nPreview of data with null values:")
+        display(df[df.isnull().any(axis=1)].head(3))
+        missingno.matrix(df)
+        plt.show()
+
+    # generate count statistics of duplicate entries
+    if len(df[df.duplicated()]) > 0:
+        print("\n***Number of duplicated entries: ", len(df[df.duplicated()]))
+        display(df[df.duplicated(keep=False)].sort_values(by=list(df.columns)).head())
+    else:
+        print("\nNo duplicated entries found")
+
+    # EDA of categorical data
+    categorical_eda(df)
     
-    # Clear punctuation/special characters from columns using regex
-    punct_regex = r"[^0-9a-zA-Z\s]"
-    #special_char_regex = r'[\$\%\&\@+\"\'\,]'
-    df.columns = df.columns.str.replace('[?]', '')
-    df.columns = df.columns.str.replace(r'[/,\\]', ' ')
-    # Lambda apply regex to df
-    df = df.rename(columns = lambda x: 
-        re.sub(punct_regex, "", x))
-    #df = df.rename(columns = lambda x:
-       # re.sub(special_char_regex, "", x))
-    
-    # Replace all spaces with an underscore for proper formatting
-    df = df.rename(columns = lambda x:
-        x.replace(" ", "_"))
-    
-    # Case normalize column names
-    df.columns = df.columns.str.lower()
-    
-    return df
+    # EDA of numeric data
+    numeric_eda(df)
+        
+    # Plot time series plot of numeric data
+    time_series_plot(df)
