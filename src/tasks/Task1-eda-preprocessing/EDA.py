@@ -7,7 +7,7 @@ import missingno
 import warnings
 from pandas import DataFrame
 warnings.filterwarnings("ignore")
-%matplotlib inline
+# %matplotlib inline
 
         
 def time_series_plot(df):
