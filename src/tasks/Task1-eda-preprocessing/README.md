@@ -24,10 +24,12 @@ In __Task 1__, three Python Scripts are included for the EDA and preprocessing r
     Output:  
     
     ```python
-    	Unnamed: 0	your_type_of_document	your_nationality	your_gender	your_birthdate	your_foreigner	period	your_consecutive	your_marital_status	your_student	...	score_biology_saber_11	score_chemistry_saber_11	score_physics_saber_11	score_social_science_saber_11	score_philosophy_saber_11	score_english_saber_11	score_english_saber_11_category	optative_field_saber_11	score_optative_saber_11	optative_category_saber_11
-    0	0	TI	COLOMBIA	M	30/07/1996	NaN	20134	EK201340233804	Single	STUDENT	...	39.0	42.0	33.0	33.0	29.0	38.0	A-	SCORE_INTERDISC_ENVIRONMENT	49.0	NaN
-    1	1	CC	COLOMBIA	M	13/04/1994	NaN	20133	EK201330220754	Single	STUDENT	...	52.0	52.0	54.0	44.0	47.0	51.0	A1	SCORE_DEEPEN_LANGUAGE	6.0	II
-    ...
+    	Unnamed: 0	your_type_of_document	your_nationality	your_gender	your_birthdate	your_foreigner	period	your_consecutive	your_marital_status	your_student	...
+    0	0	TI	COLOMBIA	M	30/07/1996	NaN	20134	EK201340233804	Single	STUDENT	...
+    1	1	CC	COLOMBIA	M	13/04/1994	NaN	20133	EK201330220754	Single	STUDENT	...
+    .
+    .
+    .
     ```
 
 - `EDA.py`  
@@ -44,12 +46,11 @@ In __Task 1__, three Python Scripts are included for the EDA and preprocessing r
     
     ```python
     Preview of data:
-    Unnamed: 0	your_type_of_document	your_nationality	your_gender	your_birthdate	your_foreigner	period	your_consecutive	your_marital_status	your_student	...	score_biology_saber_11	score_chemistry_saber_11	score_physics_saber_11	score_social_science_saber_11	score_philosophy_saber_11	score_english_saber_11	score_english_saber_11_category	optative_field_saber_11	score_optative_saber_11	optative_category_saber_11
-    0	0	TI	COLOMBIA	M	30/07/1996	NaN	20134	EK201340233804	Single	STUDENT	...	39.0	42.0	33.0	33.0	29.0	38.0	A-	SCORE_INTERDISC_ENVIRONMENT	49.0	NaN
-    1	1	CC	COLOMBIA	M	13/04/1994	NaN	20133	EK201330220754	Single	STUDENT	...	52.0	52.0	54.0	44.0	47.0	51.0	A1	SCORE_DEEPEN_LANGUAGE	6.0	II
-    2	2	CC	COLOMBIA	F	08/12/1991	NaN	20134	EK201340246502	Single	STUDENT	...	50.0	51.0	28.0	46.0	45.0	43.0	A-	SCORE_DEEPEN_BIOLOGY	5.0	I
+    Unnamed: 0	your_type_of_document	your_nationality	your_gender	your_birthdate	your_foreigner	period	your_consecutive	your_marital_status	your_student	...
+    0	0	TI	COLOMBIA	M	30/07/1996	NaN	20134	EK201340233804	Single	STUDENT	...
+    1	1	CC	COLOMBIA	M	13/04/1994	NaN	20133	EK201330220754	Single	STUDENT	...
+    2	2	CC	COLOMBIA	F	08/12/1991	NaN	20134	EK201340246502	Single	STUDENT	...
     3 rows × 142 columns
-
 
     To check: 
      (1) Total number of entries 
@@ -62,8 +63,9 @@ In __Task 1__, three Python Scripts are included for the EDA and preprocessing r
     dtypes: float64(28), int64(7), object(107)
     memory usage: 5.7+ KB
     None
-    
-    ...
+    .
+    .
+    .
     ```
     
 - `data_cleaning.py`  
