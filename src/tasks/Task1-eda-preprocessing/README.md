@@ -27,9 +27,8 @@ In __Task 1__, three Python Scripts are included for the EDA and preprocessing r
     	Unnamed: 0	your_type_of_document	your_nationality	your_gender	your_birthdate	your_foreigner	period	your_consecutive	your_marital_status	your_student	...
     0	0	TI	COLOMBIA	M	30/07/1996	NaN	20134	EK201340233804	Single	STUDENT	...
     1	1	CC	COLOMBIA	M	13/04/1994	NaN	20133	EK201330220754	Single	STUDENT	...
-    .
-    .
-    .
+    ...
+    
     ```
 
 - `EDA.py`  
@@ -63,9 +62,9 @@ In __Task 1__, three Python Scripts are included for the EDA and preprocessing r
     dtypes: float64(28), int64(7), object(107)
     memory usage: 5.7+ KB
     None
-    .
-    .
-    .
+    
+    ...
+    
     ```
     
 - `data_cleaning.py`  
