@@ -7,6 +7,8 @@ import missingno
 import warnings
 from pandas import DataFrame
 warnings.filterwarnings("ignore")
+
+# use this line on in jupyter notebook
 # %matplotlib inline
 
         
