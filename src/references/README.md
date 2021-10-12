@@ -2,10 +2,16 @@
 Resources for Omdena Colombia Career Recommendation challenge, developed on September and October 2021.
 
 ## General information
-- [Omdena's local chapter webpage](https://omdena.com/omdena-chapter-page-colombia/)  
-- [Google Drive](https://drive.google.com/drive/folders/16x4G0wgYCA7p6lj3kqADhbnSde79IxXj)  
-- GitHub Repo: [OmdenaAI/omdena-colombia-career-recommender-system](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system)  
-- [Career recommendation previous project](https://github.com/cdeafit/ds-squads/tree/main/career-recommendation)  
+- __The Challenge__
+    - [Omdena's local chapter webpage](https://omdena.com/omdena-chapter-page-colombia/)  
+    - [Google Drive](https://drive.google.com/drive/folders/16x4G0wgYCA7p6lj3kqADhbnSde79IxXj)  
+    - GitHub Repo: [OmdenaAI/omdena-colombia-career-recommender-system](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system)  
+    - [Career recommendation previous project](https://github.com/cdeafit/ds-squads/tree/main/career-recommendation)  
+
+- __Variables__
+    - [Saber Pro](https://sitios.uao.edu.co/saberpro/que-son-las-pruebas-saber-pro/). (⚠️ Material in Spanish).
+    - [Saber 11](https://en.wikipedia.org/wiki/ICFES_examination).  
+
 
 ## Models
 - __Clustering__
@@ -23,6 +29,7 @@ Resources for Omdena Colombia Career Recommendation challenge, developed on Sept
     - [Pavel Kordík. (Jun 7, 2018). [Machine Learning for Recommender systems — Part 2 (Deep Recommendation, Sequence Prediction, AutoML and Reinforcement Learning in Recommendation).](https://medium.com/recombee-blog/machine-learning-for-recommender-systems-part-2-deep-recommendation-sequence-prediction-automl-f134bc79d66b) Medium.
     - Rahul Agarwal. (Jun 11, 2021). [Recommendation systems in Python.](https://rahulaga.medium.com/recommendation-systems-in-python-746d2184341d) Medium.
     
+
 ## Hands-on
 - __Libraries__
     - [`deep-translator`. A flexible python tool to translate between different languages in a simple way using multiple translators.](https://github.com/nidhaloff/deep-translator)  
