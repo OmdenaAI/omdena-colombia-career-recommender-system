@@ -33,4 +33,4 @@ Resources for Omdena Colombia Career Recommendation challenge, developed on Sept
 
 - __Other references__
     - [Git and GitHub Tutorial](https://docs.google.com/document/d/19cgZ5cAXQYsebrzjYrJhuDFR3ohyr9RURs5c69e1v1c/edit)  
-    - [Git_commands.md](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system/tree/eda_vcuspinera/src/references), brief recap with Git and GitHub commands.  
+    - [Git_commands.md](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system/blob/main/src/references/Git_commands.md), brief recap with Git and GitHub commands.  
