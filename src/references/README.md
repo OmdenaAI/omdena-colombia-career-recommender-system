@@ -5,8 +5,11 @@ Resources for Omdena Colombia Career Recommendation challenge, developed on Sept
 - __The Challenge__
     - [Omdena's local chapter webpage](https://omdena.com/omdena-chapter-page-colombia/)  
     - [Google Drive](https://drive.google.com/drive/folders/16x4G0wgYCA7p6lj3kqADhbnSde79IxXj)  
-    - GitHub Repo: [OmdenaAI/omdena-colombia-career-recommender-system](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system)  
-    - [Career recommendation previous project](https://github.com/cdeafit/ds-squads/tree/main/career-recommendation)  
+    - [GitHub Repo: `OmdenaAI/omdena-colombia-career-recommender-system`](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system)  
+
+- __previous project__
+    - [GitHub Repo: `ds-squads`](https://github.com/cdeafit/ds-squads/tree/main/career-recommendation)  
+    - [Dashboard](http://104.209.174.219/)  
 
 - __Variables__
     - [Saber Pro](https://sitios.uao.edu.co/saberpro/que-son-las-pruebas-saber-pro/). (⚠️ Material in Spanish).
