@@ -42,5 +42,11 @@ Resources for Omdena Colombia Career Recommendation challenge, developed on Sept
     - Mısra Turp. (May 4, 2021). [How to Animate Plots on Streamlit, Bring your Plots to Life!](https://www.youtube.com/watch?v=VZ_tS4F6P2A) YouTube.  
 
 - __Other references__
-    - [Git and GitHub Tutorial](https://docs.google.com/document/d/19cgZ5cAXQYsebrzjYrJhuDFR3ohyr9RURs5c69e1v1c/edit)  
-    - [Git_commands.md](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system/blob/main/src/references/Git_commands.md), brief recap with Git and GitHub commands.  
+    - Git and GitHub
+        - [Git and GitHub Tutorial](https://docs.google.com/document/d/19cgZ5cAXQYsebrzjYrJhuDFR3ohyr9RURs5c69e1v1c/edit)  
+        - [Git_commands.md](https://github.com/OmdenaAI/omdena-colombia-career-recommender-system/blob/main/src/references/Git_commands.md), brief recap with Git and GitHub commands.  
+    - Geographic information for maps
+        - [Geographic file (`TopoJSON`) for Colombian Departments and Municipalites.](https://observablehq.com/@john-guerra/topojson-colombia)  
+        - [Geo-viewr Dashboard of DANE (the National Administrative Department of Statistics of Colombia)](https://geoportal.dane.gov.co/geovisores/territorio/consulta-divipola-division-politico-administrativa-de-colombia/)  
+        - [Departments Code by DANE](https://geoportal.dane.gov.co/descargas/divipola/DIVIPOLA_Departamentos.csv)  
+        - [Municipalities Code by DANE](https://geoportal.dane.gov.co/descargas/divipola/DIVIPOLA_Municipios.csv)  
