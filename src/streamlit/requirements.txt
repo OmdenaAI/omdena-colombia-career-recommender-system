@@ -1,0 +1,5 @@
+pandas
+plotly
+streamlit
+seaborn
+tensorflow-cpu==2.3.0
