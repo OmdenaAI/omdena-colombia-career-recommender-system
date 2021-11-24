@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "geoshape", "fill": "white", "stroke": "lightgray"}, "height": 300, "width": 500}, {"mark": {"type": "geoshape", "stroke": "lightgray"}, "encoding": {"color": {"type": "nominal", "field": "dominant_cluster", "scale": {"domain": ["Cluster 0", "Cluster 1", "Cluster 2", "Cluster 3", "Cluster 4", "Cluster 5", "Cluster 6", "Cluster 7", "Cluster 9"]}, "title": "Dominant Cluster"}}, "height": 300, "transform": [{"lookup": "properties.MPIO_CDPMP", "from": {"data": {"name": "data-17ede88ff89f6276995ccff2409abd50"}, "key": "DANE_code", "fields": ["dominant_cluster"]}}], "width": 500}], "data": {"url": "https://raw.githubusercontent.com/OmdenaAI/omdena-colombia-career-recommender-system/main/src/data/Colombia_departamentos_municipios_poblacion-topo.json", "format": {"feature": "MGN_AMN_MPIOS", "type": "topojson"}}, "encoding": {"tooltip": [{"type": "nominal", "field": "properties.MPIO_CNMBR"}, {"type": "quantitative", "field": "properties.MPIO_CCDGO"}, {"type": "nominal", "field": "dominant_cluster"}]}, "title": "Dominant cluster in Colombia by Municipality", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-17ede88ff89f6276995ccff2409abd50": [{"DANE_code": "05045", "dominant_cluster": "Cluster 2"}, {"DANE_code": "81001", "dominant_cluster": "Cluster 2"}, {"DANE_code": "63001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "68081", "dominant_cluster": "Cluster 2"}, {"DANE_code": "08001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "05088", "dominant_cluster": "Cluster 0"}, {"DANE_code": "17001", "dominant_cluster": "Cluster 3"}, {"DANE_code": "73001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "05308", "dominant_cluster": "Cluster 4"}, {"DANE_code": "73268", "dominant_cluster": "Cluster 1"}, {"DANE_code": "25754", "dominant_cluster": "Cluster 4"}, {"DANE_code": "76147", "dominant_cluster": "Cluster 2"}, {"DANE_code": "13001", "dominant_cluster": "Cluster 7"}, {"DANE_code": "76001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "54001", "dominant_cluster": "Cluster 4"}, {"DANE_code": "68001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "11001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "05001", "dominant_cluster": "Cluster 7"}, {"DANE_code": "23001", "dominant_cluster": "Cluster 7"}, {"DANE_code": "41001", "dominant_cluster": "Cluster 4"}, {"DANE_code": "76520", "dominant_cluster": "Cluster 9"}, {"DANE_code": "52001", "dominant_cluster": "Cluster 6"}, {"DANE_code": "66001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "19001", "dominant_cluster": "Cluster 1"}, {"DANE_code": "27001", "dominant_cluster": "Cluster 5"}, {"DANE_code": "47001", "dominant_cluster": "Cluster 1"}, {"DANE_code": "73001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "15001", "dominant_cluster": "Cluster 7"}, {"DANE_code": "76001", "dominant_cluster": "Cluster 9"}, {"DANE_code": "50001", "dominant_cluster": "Cluster 7"}, {"DANE_code": "online", "dominant_cluster": "Cluster 9"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
